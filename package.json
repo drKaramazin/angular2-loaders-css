@@ -1,6 +1,6 @@
 {
   "name": "angular2-loaders-css",
-  "version": "2.0.1",
+  "version": "1.0.0",
   "description": "Angular 2 module for Loaders.css",
   "files": [
     "module/*.d.ts",
