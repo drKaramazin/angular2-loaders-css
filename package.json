@@ -28,11 +28,11 @@
     "package"
   ],
   "author": {
-    "name": "Paul Moff"
+    "name": "Nikolay Grishkin"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/moff/angular2-loaders-css.git"
+    "url": "https://github.com/drKaramazin/angular2-loaders-css.git"
   },
   "license": "MIT",
   "peerDependencies": {
