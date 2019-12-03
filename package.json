@@ -38,6 +38,9 @@
   "peerDependencies": {
     "@angular/cli": "^7.3.9"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "dependencies": {
     "loaders.css": "^0.1.2",
     "tslib": "^1.9.0"
