@@ -39,8 +39,7 @@
     "@angular/cli": "^6.2.9"
   },
   "dependencies": {
-    "loaders.css": "^0.1.2",
-    "rxjs-compat": "^6.5.3"
+    "loaders.css": "^0.1.2"
   },
   "devDependencies": {
     "@angular/animations": "^6.1.10",
