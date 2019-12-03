@@ -25,7 +25,7 @@
       '@angular/forms': 'npm:@angular/forms/bundles/forms.umd.js',
       // other libraries
       'rxjs': 'npm:rxjs',
-      'rxjs-compat': 'npm:rxjs-compat',
+      'tslib': 'npm:tslib',
       'angular-in-memory-web-api': 'npm:angular-in-memory-web-api',
     },
     // packages tells the System loader how to load when no filename and/or no extension
@@ -44,6 +44,10 @@
       "rxjs/testing": { "main": "index.js", "defaultExtension": "js" },
       'rxjs/ajax': { main: 'index.js', defaultExtension: 'js' },
       'rxjs-compat': { main: 'index.js', defaultExtension: 'js' },
+      tslib: {
+        main: 'tslib.js',
+        defaultExtension: 'js'
+      },
       'angular-in-memory-web-api': {
         main: './index.js',
         defaultExtension: 'js'
