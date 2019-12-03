@@ -32,14 +32,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/drKaramazin/angular2-loaders-css.git"
+    "url": "https://github.com/drKaramazin/ngx-css-loaders2.git"
   },
   "license": "MIT",
   "peerDependencies": {
     "@angular/cli": "^7.3.9"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   },
   "dependencies": {
     "loaders.css": "^0.1.2",
