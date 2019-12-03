@@ -15,6 +15,15 @@
     "./module/module.ts",
     "./index.ts"
   ],
+  "rulesDirectory": [
+    "node_modules/rxjs-tslint"
+  ],
+  "rules": {
+    "rxjs-collapse-imports": true,
+    "rxjs-pipeable-operators-only": true,
+    "rxjs-no-static-observable-methods": true,
+    "rxjs-proper-imports": true
+  },
   "angularCompilerOptions": {
     "genDir": "aot",
     "skipMetadataEmit": false,
