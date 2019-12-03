@@ -13,6 +13,7 @@ coverage
 *.d.ts
 !make.js
 !bundles/*.js
+package-lock.json
 
 # JetBrains
 .idea

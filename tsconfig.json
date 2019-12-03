@@ -11,6 +11,9 @@
     "outDir": "./compiled",
     "lib": ["es2015", "dom"]
   },
+  "angularCompilerOptions": {
+    "preserveWhitespaces": false
+  },
   "files": [
     "./app/main.ts",
     "./module/module.ts"
