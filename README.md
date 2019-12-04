@@ -1,4 +1,8 @@
-# Angular 2 Loaders.css spinners
+# This is a fork of angular2-loaders-css
+
+This fork updated to Angular 7. Big thanks to the Author (https://www.npmjs.com/package/angular2-loaders-css).
+
+# Angular Loaders.css spinners
 
 ![alt tag](http://i.imgur.com/6TCsrFV.png)
 
@@ -15,7 +19,7 @@ This repository contains Angular 2 module that implements Loaders.css spinners.
 
 ## Installation
 
-- run `npm install angular2-loaders-css --save`
+- run `npm install ngx-css-loaders2 --save`
 - link [Loaders.css](https://github.com/ConnorAtherton/loaders.css) stylesheet to your document - you can find it in /node_modules/loaders.css/, e.g. add this in your html-document:
 
 ```
@@ -32,7 +36,7 @@ or import it in app.scss, e.g.:
 ```
 // other imports
 // ...
-import { LoadersCssModule } from 'angular2-loaders-css';
+import { LoadersCssModule } from 'ngx-css-loaders2';
 // ...
 
 @NgModule({
@@ -56,13 +60,13 @@ Otherwise you'll have to edit `systemjs.config.js` to set correct path, e.g.:
 // map tells the System loader where to look for things
 var map = {
     // ...
-    'angular2-loaders-css':       'node_modules/angular2-loaders-css',
+    'ngx-css-loaders2':       'node_modules/ngx-css-loaders2',
     // ...
 };
 // packages tells the System loader how to load when no filename and/or no extension
 var packages = {
     // ...
-    'angular2-loaders-css':       { main: 'index.js', defaultExtension: 'js' },
+    'ngx-css-loaders2':       { main: 'index.js', defaultExtension: 'js' },
     // ...
 };
 
@@ -129,7 +133,7 @@ Note that you have to use loader-attribute to choose a loader that'll be display
 
 ## Feedback
 
-Please [leave your feedback](https://github.com/moff/angular2-loaders-css/issues) if you have noticed any issues or have a feature request.
+Please [leave your feedback](https://github.com/drKaramazin/ngx-css-loaders2/issues) if you have noticed any issues or have a feature request.
 
 
 ## License
